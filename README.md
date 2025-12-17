@@ -28,4 +28,4 @@ The analysis confirmed the IoC was part of an **Ephemeral Phishing Infrastructur
 
 The detailed report includes the step-by-step analysis, technical conclusions, and a breakdown of SOC response actions (T1, T2, and T3 recommendations).
 
-[**Click Here to View the Full Professional Incident Report (PDF) ▶️**](./Rapport_Analyse/ANALYSE_FINALE_PHISHING.pdf.pdf)
+[**Click Here to View the Full Professional Incident Report ▶️**](./ANALYSE_FINALE_PHISHING.md)
