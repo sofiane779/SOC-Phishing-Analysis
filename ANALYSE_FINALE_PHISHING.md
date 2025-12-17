@@ -16,6 +16,8 @@ IoC, assess the threat and document the attack infrastructure.
 The initial analysis was conducted to assess the immediate reputation of
 the IoC:
 
+[![VT-Score](./Captures/VT-Score.png)](./Captures/VT-Score.png)
+
 * VirusTotal (VT): The domain recorded a detection score of 0 out
 of 98 search engines. Only Forcepoint ThreatSeeker classified it
 as Suspicious.
@@ -23,7 +25,10 @@ as Suspicious.
 that the domain is very recent or targeted and has not yet been
 indexed by most blacklists. The Suspicious classification confirms
 abnormal activity and the need for further investigation.
-*​ URLScan.io: The sandbox behavioral analysis attempt
+
+[![URLScan-Inactive](./Captures/URLScan-Inactive.png)](./Captures/URLScan-Inactive.png)
+
+* URLScan.io: The sandbox behavioral analysis attempt
 immediately failed with an HTTP 400 error - DNS Error: Could not
 resolve domain.
 * Analytical Conclusion: The site could not be loaded. This
@@ -37,12 +42,17 @@ up and removed very quickly to cover its tracks).
 The investigation focused on the root domain (portal-update.xyz)
 to assess its legitimacy and infrastructure:
 
+[![Whois-NoData](./Captures/Whois-NoData.png)](./Captures/Whois-NoData.png)
+
 *  Whois Lookup: The search returned no WHOIS data for the
 domain.
 * Analytical Conclusion: The absence of Whois data is
 common in phishing attacks, confirming the attacker's
 intention to use disposable infrastructure and to mask the
 owner's identity.
+
+[![MXToolbox-NoDNS](./Captures/MXToolbox-NoDNS.png)](./Captures/MXToolbox-NoDNS.png)
+
 * MXToolbox (DNS Lookup A Record): The test confirmed
 that no DNS (A Record) was found for the domain.
 * Analytical Conclusion: The absence of a DNS record
